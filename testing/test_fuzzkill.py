@@ -1,4 +1,4 @@
-from fuzzkill.fuzzkill import Fuzzkill as fk
+from fuzzkill import Fuzzkill as fk
 
 class TestFuzzkill:
 	def test_url_ctor_applied(self) -> None:

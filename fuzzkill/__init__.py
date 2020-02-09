@@ -1,1 +1,1 @@
-#from .fuzzkill import Fuzzkill
+from .fuzzkill import Fuzzkill
