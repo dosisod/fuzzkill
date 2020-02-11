@@ -7,8 +7,14 @@ from typing import Dict, Any, cast
 
 """
 Flask-Testing does what i need, but it is old.
-
 I plan on forking and fixing it, then using it here.
+In the meantime, you will need to replace:
+
+from werkzeug import cached_property
+# with this:
+from werkzeug.utils import cached_property
+
+in file `.venv/lib/python3.X/site-packages/flask_testing/utils.py`
 """
 
 class TestProbe(LiveServerTestCase):

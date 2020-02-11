@@ -7,6 +7,8 @@ JSON API Fuzzer in python3
 ```
 $ git clone https://github.com/dosisod/fuzzkill
 $ cd fuzzkill
+$ python3 -m venv .venv
+$ source .venv/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
@@ -27,5 +29,5 @@ $ ./mypy.sh
 Make sure tests are passing with [pytest](https://pypi.org/project/pytest/):
 
 ```
-$ pytest testing/
+$ pytest
 ```
